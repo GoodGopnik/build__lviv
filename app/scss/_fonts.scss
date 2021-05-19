@@ -1,0 +1,36 @@
+$Playfair-Display: 'Playfair Display';
+$Gilroy-Black: 'Gilroy-Black';
+$Gilroy-Bold: 'Gilroy-Bold';
+$Gilroy-Light: 'Gilroy-Light';
+$Gilroy-Medium: 'Gilroy-Medium';
+$Gilroy-Regular: 'Gilroy-Regular';
+$Gilroy-SemiBold: 'Gilroy-SemiBold';
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: url('../fonts/Gilroy-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/Gilroy-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../fonts/Gilroy-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../fonts/Gilroy-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('../fonts/Gilroy-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('../fonts/Gilroy-SemiBold.woff') format('woff');
+}
+
+$orange: #FF9900;
+$orange1: #FFB800;
+$white: #fff;
+$black: #000;
