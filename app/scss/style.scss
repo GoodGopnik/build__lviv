@@ -110,6 +110,7 @@
 }
 .container-center {
     max-width: 860px;
+    padding: 0 5px;
     margin: 0 auto;
 }
 .header-block__centr-text {
@@ -151,6 +152,7 @@
 .header-block__warranty {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(26px);
     padding-top: 34px;
@@ -170,6 +172,11 @@
         color: $white;
         font-family: $Gilroy-SemiBold;
         max-width: 180px;
+        width: 100%;
+    }
+}
+.warranty-block__svg {
+    img {
         width: 100%;
     }
 }
