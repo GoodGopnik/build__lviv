@@ -217,6 +217,18 @@
         margin: 0 20px;
         cursor: pointer;
     }
+    .reviews-block__arrow-prev {
+        svg {
+            left: 200px;
+            top: -80px;
+        }
+    }
+    .reviews-block__arrow-next {
+        svg {
+            right: 200px;
+            top: -80px;
+        }
+    }
 }
 @media(max-width:550px) {
     .portfolio-slider__slide-max {
@@ -240,6 +252,18 @@
     .header-block__centr-text {
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+    .reviews-block__arrow-prev {
+        svg {
+            left: 100px;
+            top: -80px;
+        }
+    }
+    .reviews-block__arrow-next {
+        svg {
+            right: 100px;
+            top: -80px;
+        }
     }
 }
 @media(max-width:390px) {
@@ -272,16 +296,6 @@
             cursor: pointer;
             margin: 0 10px;
             }
-        }
-    }
-    .reviews-block__block-slider {
-        .arrow__prev {
-            left: 100px;
-            bottom: 50px;
-        }
-        .arrow__next {
-            right: 100px;
-            bottom: 50px;
         }
     }
 }

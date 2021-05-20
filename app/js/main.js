@@ -34,6 +34,6 @@ $('.reviews-block__block-slider').slick({
     arrows: true,
     dots: true,
     asNavFor: '.portfolio-slider__slide-min',
-    prevArrow: "<img src='./images/block4/Path.png' class='arrow__prev' alt='img'>",
-    nextArrow: "<img src='./images/block4/Path.png' class='arrow__next' alt='img'>",
+    prevArrow: '.reviews-block__arrow-prev',
+    nextArrow: '.reviews-block__arrow-next',
 });

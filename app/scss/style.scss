@@ -626,20 +626,6 @@
     margin: 0 auto;
     padding-bottom: 100px;
     position: relative;
-    .arrow__prev {
-        position: absolute;
-        left: 145px;
-        bottom: 50px;
-        transform: rotate(180deg);
-        cursor: pointer;
-    }
-    .arrow__next {
-        position: absolute;
-        right: 145px;
-        bottom: 50px;
-        transform: rotate();
-        cursor: pointer;
-    }
     .slick-dots {
         display: flex;
         justify-content: flex-start;
@@ -683,6 +669,34 @@
         font-size: 20px;
         color: $white;
         margin-top: 20px
+    }
+}
+.reviews-block__arrow {
+    position: relative;
+}
+.reviews-block__arrow-prev {
+    svg {
+        position: absolute;
+        left: 260px;
+        top: -80px;
+        fill: $white;
+        cursor: pointer;
+        transform: rotate(180deg);
+    }
+    svg:hover {
+        fill: $orange;
+    }
+}
+.reviews-block__arrow-next {
+    svg {
+        position: absolute;
+        right: 260px;
+        top: -80px;
+        fill: $white;
+        cursor: pointer;
+    }
+    svg:hover {
+        fill: $orange;
     }
 }
 ////////////////////////// form
