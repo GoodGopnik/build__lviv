@@ -139,6 +139,28 @@
     .header-block__number {
         margin-right: 10px;
     }
+    .footer-block {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .footer-block__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-block__nav-menu {
+        margin: 10px 0;
+    }
+    .footer-block__social {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-block__fc {
+        margin: 0 20px;
+        cursor: pointer;
+    }
 }
 @media(max-width:550px) {
     .portfolio-slider__slide-max {
@@ -165,6 +187,12 @@
     }
 }
 @media(max-width:390px) {
+    .header-block__warranty {
+        background: $gray;
+    }
+    .warranty-block {
+        margin: 0 auto;
+    }
     .portfolio-slider__img {
         .slick-dots {
             display: flex;

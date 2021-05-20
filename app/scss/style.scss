@@ -716,6 +716,85 @@
  :-ms-input-placeholder { 
     color: $white;
  }
+////////////////////////// footer
+.footer-block {
+    background: $black;
+    padding-top: 115px;
+    padding-bottom: 200px;
+    color: $white;
+}
+.footer-block__nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-block__logo {
+    padding: 0 5px;
+    h3 {
+        color: $orange;
+        font-family: $Gilroy-Black;
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        width: 308px;
+        font-family: $Gilroy-Light;
+        font-size: 16px;
+        color: $white
+    }
+}
+.footer-block__nav-menu {
+    display: flex;
+    flex-direction: column;
+    a {
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: $white;
+        font-size: 16px;
+        font-family: $Gilroy-Regular;
+    }
+}
+.footer-block__contact {
+    p {
+        margin: 0;
+        padding: 0;
+        font-family: $Gilroy-Regular;
+        font-size: 16px;
+        color: $white;
+        margin-bottom: 10px;
+    }
+    span {
+        font-family: $Gilroy-Bold;
+    }
+}
+.footer-block__contact_nuber {
+    padding-top: 25px;
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+}
+.footer-block__social {
+    padding: 0 5px;
+}
+.footer-block__ins {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.footer-block__fc {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.footer-block__lin {
+    cursor: pointer;
+}
+
 
 
 @import "media";
