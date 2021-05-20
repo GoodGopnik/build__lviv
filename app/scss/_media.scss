@@ -104,6 +104,17 @@
     .right-block__title {
         margin-top: 50px;
     }
+    .form-input__name-email {
+        display: flex;
+        flex-direction: column;
+        input:first-child {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    }
+    .form-input__text {
+        width: 304px;
+    }
 }
 @media(max-width:725px) {
     .wrapper .header-block__number-margin {

@@ -539,7 +539,6 @@
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(26px);
     position: relative;
-    padding: 0 5px;
 }
 .reviews-block__img {
     position: absolute;
@@ -625,6 +624,7 @@
         color: $white;
         margin: 0;
         padding: 0;
+        padding: 0 5px;
     }
     h3 {
         margin: 0;
@@ -635,6 +635,87 @@
         margin-top: 20px
     }
 }
+////////////////////////// form
+.form-block {
+    background: $orange1;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.form-block__container {
+    max-width: 766px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.form-block__title {
+    margin-bottom: 8px;
+    h3 {
+        margin: 0;
+        padding: 0;
+        color: $white;
+        font-family: $Playfair-Display;
+        font-size: 30px;
+    }
+}
+.form-block__text {
+    margin-bottom: 43px;
+    p {
+        margin: 0;
+        padding: 0; 
+        color: $white;
+        font-family: $Gilroy-Regular;
+        font-size: 18px;
+    }
+}
+.form-input__name-email {
+    margin-bottom: 42px;
+    input {
+        width: 304px;
+        color: $white;
+        background: $orange1;
+        border: none;
+        font-size: 16px;
+        font-family: $Gilroy-Medium;
+        border-bottom: 1px solid $white;
+    }
+    input:first-child {
+        margin-right: 146px
+    }
+}
+.form-input__text {
+    input {
+        width: 100%;
+        color: $white;
+        background: $orange1;
+        border: none;
+        font-size: 16px;
+        font-family: $Gilroy-Medium;
+        border-bottom: 1px solid $white;
+    }
+}
+.form-block__btn {
+    margin-top: 42px;
+    button {
+        padding: 10px 22px;
+        background: $white;
+        color: $orange1;
+        font-size: $Gilroy-Bold;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+    }
+}
+::-webkit-input-placeholder {
+    color: $white;
+ }
+ :-moz-placeholder {
+    color: $white;
+ }
+ ::-moz-placeholder {
+    color: $white;
+ }
+ :-ms-input-placeholder { 
+    color: $white;
+ }
 
 
 @import "media";
