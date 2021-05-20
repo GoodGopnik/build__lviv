@@ -26,4 +26,14 @@ $('.portfolio-slider__img').slick({
     asNavFor: '.portfolio-slider__slide-min',
     prevArrow: "<img src='./images/block4/Path.png' class='arrow__prev' alt='img'>",
     nextArrow: "<img src='./images/block4/Path.png' class='arrow__next' alt='img'>",
-  });
+});
+$('.reviews-block__block-slider').slick({
+    slidesToShow: 1,
+    arrows: false,
+    infinite: true,
+    arrows: true,
+    dots: true,
+    asNavFor: '.portfolio-slider__slide-min',
+    prevArrow: "<img src='./images/block4/Path.png' class='arrow__prev' alt='img'>",
+    nextArrow: "<img src='./images/block4/Path.png' class='arrow__next' alt='img'>",
+});

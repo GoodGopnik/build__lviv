@@ -133,6 +133,11 @@
     .portfolio-slider__slide-max {
         width: 100%;
     }
+    .reviews-block__block-slider {
+        .slick-dots {
+            display: none;
+        }
+    }
 }
 @media(max-width:500px) {
     .header-block__nav-elem  {
@@ -173,5 +178,15 @@
             margin: 0 10px;
             }
         }
-}
+    }
+    .reviews-block__block-slider {
+        .arrow__prev {
+            left: 100px;
+            bottom: 50px;
+        }
+        .arrow__next {
+            right: 100px;
+            bottom: 50px;
+        }
+    }
 }
