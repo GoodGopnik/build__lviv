@@ -67,29 +67,22 @@
     }
 }
 .header-block__nav-elem {
+    display: flex;
+    justify-content: space-between;
     a {
         text-decoration: none;
         font-family: $Gilroy-Regular;
         font-size: 18px;
         color: $white;
-        padding: 0 40px;
+        padding-top: 5px;
+        margin: 0 40px;
         position: relative;
-    }
-    a::before {
-        content: "";
-        position: absolute;
-        top: 25px;
-        right: 0;
-        width: 100%;
-        height: 2px;
-        background: $orange;
-        display: none;
-    }
-    a:hover::before {
-        display: block;
+        transition: 0.5s;
     }
     a:hover {
+        border-bottom: 2px solid $orange;
         color: $orange;
+        transition: 0.5s;
     }
 }
 .header-block__btn {
@@ -302,8 +295,65 @@
         font-size: 40px;
     }
 }
-.number-block {
+.number-block1 {
     margin: 0 20px;
+    position: relative;
+}
+.number-block1::before {
+    content: url('../images/block3/Subtract.png');
+    left: 27px;
+    top: 0;
+    position: absolute;
+}
+.number-block2 {
+    margin: 0 20px;
+    position: relative;
+}
+.number-block2::before {
+    content: url('../images/block3/Subtract\(1\).png');
+    left: 31px;
+    top: 0;
+    position: absolute;
+}
+.number-block3 {
+    margin: 0 20px;
+    position: relative;
+}
+.number-block3::before {
+    content: url('../images/block3/Subtract\ \(3\).png');
+    left: 31px;
+    top: 0;
+    position: absolute;
+}
+.number-block4 {
+    margin: 0 20px;
+    position: relative;
+}
+.number-block4::before {
+    content: url('../images/block3/Subtract\ \(4\).png');
+    left: 4px;
+    top: 0;
+    position: absolute;
+}
+.number-block5 {
+    margin: 0 20px;
+    position: relative;
+}
+.number-block5::before {
+    content: url('../images/block3/Subtract\ \(5\).png');
+    left: 0px;
+    top: 0;
+    position: absolute;
+}
+.number-block6 {
+    margin: 0 20px;
+    position: relative;
+}
+.number-block6::before {
+    content: url('../images/block3/Subtract\ \(6\).png');
+    left: 0px;
+    top: 0;
+    position: absolute;
 }
 .work-block__number-block {
     display: flex;
@@ -702,6 +752,12 @@
         font-size: 16px;
         cursor: pointer;
         border: none;
+        transition: 0.5s;
+    }
+    button:hover {
+        transition: 0.5s;
+        color: $white;
+        background: $black;
     }
 }
 ::-webkit-input-placeholder {
@@ -758,6 +814,11 @@
         color: $white;
         font-size: 16px;
         font-family: $Gilroy-Regular;
+        transition: 0.5s;
+    }
+    a:hover {
+        color: $orange;
+        transition: 0.5s;
     }
 }
 .footer-block__contact {
@@ -778,6 +839,13 @@
     a {
         text-decoration: none;
         color: $white;
+        transition: 0.5s;
+    }
+}
+.footer-block__contact_nuber:hover {
+    a {
+        color: $orange;
+        transition: 0.5s;
     }
 }
 .footer-block__social {
@@ -786,15 +854,44 @@
 .footer-block__ins {
     margin-bottom: 20px;
     cursor: pointer;
+    svg {
+        fill: $white; 
+        fill-opacity: 0.2;
+        transition: 0.5s;
+    }
 }
 .footer-block__fc {
     margin-bottom: 20px;
     cursor: pointer;
+    svg {
+        fill: $white; 
+        fill-opacity: 0.2;
+        transition: 0.5s;
+    }
 }
 .footer-block__lin {
     cursor: pointer;
+    svg {
+        fill: $white; 
+        fill-opacity: 0.2;
+        transition: 0.5s;
+    }
 }
-
+.footer-block__lin svg:hover {
+    fill: $orange;
+    fill-opacity: 1;
+    transition: 0.5s;
+}
+.footer-block__fc svg:hover {
+    fill: $orange;
+    fill-opacity: 1;
+    transition: 0.5s;
+}
+.footer-block__ins svg:hover {
+    fill: $orange;
+    fill-opacity: 1;
+    transition: 0.5s;
+}
 
 
 @import "media";
