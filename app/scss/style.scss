@@ -264,6 +264,120 @@
     right: 0;
     bottom: -175px;
 }
+////////////////////////// work
+.work-block {
+    background: $black;
+    color: $white;
+    position: relative;
+    z-index: 2;
+    margin-top: -4px;
+    padding-top: 65px;
+    padding-bottom: 144px;
+}
+.work-block__container-work {
+    max-width: 1092px;
+    margin: 0 auto;
+}
+.work-block__text-title {
+    margin-bottom: 10px;
+    padding: 0 5px;
+    h3 {
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        color: $orange;
+        font-size: 18px;
+        font-family: $Gilroy-Regular;
+        letter-spacing: 9px;
+    }
+}
+.work-block__title {
+    padding: 0 5px;
+    margin-bottom: 95px;
+    h3 {
+        margin: 0;
+        padding: 0;
+        color: $white;
+        font-family: $Playfair-Display;
+        font-size: 40px;
+    }
+}
+.number-block {
+    margin: 0 20px;
+}
+.work-block__number-block {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.number-block__number {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 1px solid $white;
+    p {
+        margin: 0;
+        padding: 0;
+        font-family: $Playfair-Display;
+        font-size: 40px;
+        text-align: center;
+    }
+    .number-block__number_text {
+        margin-top: 5px;
+    }
+}
+.number-block__text {
+    p {
+        margin: 0;
+        padding: 0;
+        font-family: $Gilroy-Regular;
+        font-size: 14px;
+        color: $white;
+        width: 155px;
+        margin-top: 30px;
+    }
+}
+
+.number-block__line_1 {
+    width: 128px;
+    height: 1px;
+    background: $white;
+    position: absolute;
+    left: 48px;
+    top: 33px;
+}
+.number-block__line_2 {
+    width: 128px;
+    height: 1px;
+    background: $white;
+    position: absolute;
+    left: 243px;
+    top: 33px;
+}
+.number-block__line_3 {
+    width: 128px;
+    height: 1px;
+    background: $white;
+    position: absolute;
+    left: 439px;
+    top: 33px;
+}
+.number-block__line_4 {
+    width: 128px;
+    height: 1px;
+    background: $white;
+    position: absolute;
+    right: 330px;
+    top: 33px;
+}
+.number-block__line_5 {
+    width: 128px;
+    height: 1px;
+    background: $white;
+    position: absolute;
+    right: 135px;
+    top: 33px;
+}
 
 
 
