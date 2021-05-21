@@ -36,4 +36,12 @@ $('.reviews-block__block-slider').slick({
     asNavFor: '.portfolio-slider__slide-min',
     prevArrow: '.reviews-block__arrow-prev',
     nextArrow: '.reviews-block__arrow-next',
+    responsive: [
+        {
+            breakpoint: 550, 
+            settings: {
+                dots: false,
+            }
+        }
+    ]
 });
